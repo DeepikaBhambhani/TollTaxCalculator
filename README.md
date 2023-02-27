@@ -37,7 +37,7 @@ controller : Test cases related to controller classes are written.
 service : Unit test cases of service classes.
 
 ENHANCEMENTS:
-We can implement our own API to handle time and fee data and make a rest call to get all the information.
-We can use external Holiday API 
-We can enhance it into a microservice application to make it more scalable.
-YAML file can be moved as an external file and used whenever required.
+1.We can implement our own API to handle time and fee data and make a rest call to get all the information.
+2.We can use external Holiday API 
+3.We can enhance it into a microservice application to make it more scalable.
+4.YAML file can be moved as an external file and used whenever required. 
