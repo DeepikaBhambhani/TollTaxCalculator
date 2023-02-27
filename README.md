@@ -15,10 +15,26 @@ This application calculates toll for vehicles travelling in Sweden. There are so
 IMPLEMENTATION:
 Created YAML file to store time and amount charged during travel 
 Implemented Rest controller which will call service class and calculate toll.
-Handled exceptions
 Used data transfer objects to receive request body.
-Created interface Vehicle which is implemented by different types of vehicles classed
+Created interface Vehicle which is implemented by different types of vehicles classes
 Implemented service classes to handle validations and business logic.
+
+1.service : This package contains two service classes where whole business logic and validation is done.
+
+2.dto : These are data transfer objects created to fetch data from YAML file and to fetch request body.
+
+3.domain : This package consist of all model objects
+
+4.controller : This package has rest controller which calls services created in service package
+
+5.config : classes created in this package consist of configuration properties which are required and configured at the time of server start up and some constants
+
+6. exception handler: to handle controller thrown exception
+
+TEST Package :
+
+controller : Test cases related to controller classes are written.
+service : Unit test cases of service classes.
 
 ENHANCEMENTS:
 We can implement our own API to handle time and fee data and make a rest call to get all the information.
